@@ -10,7 +10,7 @@ body {
     width: 70%;
     height: 100vh;
     background-image: url('/root/assets/images/logo Ace.png');
-    margin-left: 300px;
+    margin-left: 400px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -41,7 +41,9 @@ body {
 }
 
 .menu ul li a {
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 100%;
     width: 100%;
     line-height: 65px;
@@ -90,4 +92,104 @@ body {
     
     filter: invert(1);
     
+}
+
+li:hover #vendas, li:hover #cadastro, li:hover #dashboard, li:hover #eventos, li:hover #agenda, 
+li:hover #dashboard, li:hover #financeiro, li:hover #configuracoes, li:hover #social, li:hover #suporte {
+    filter: invert(0);
+}
+
+
+#dashboard {
+    list-style-image: url('/root/assets/images/icons8-dashboard-layout-24.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+#cadastro {
+    list-style-image: url('/root/assets/images/cadstro.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+#vendas {
+    list-style-image: url('/root/assets/images/vendas.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+#agenda {
+    list-style-image: url('/root/assets/images/calendar.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+
+}
+
+#eventos {
+    list-style-image: url('/root/assets/images/eventos.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+
+}
+
+#financeiro {
+    list-style-image: url('/root/assets/images/financeiro.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 0;
+
+}
+
+#configuracoes {
+    list-style-image: url('/root/assets/images/configuracoes.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 5px;
+
+}
+
+#social {
+    list-style-image: url('/root/assets/images/social.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 5px;
+
+}
+
+#suporte {
+    list-style-image: url('/root/assets/images/suporte.png');
+    filter: invert(1);
+    display: list-item;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 5px;
+
 }
