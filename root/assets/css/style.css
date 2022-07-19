@@ -1,0 +1,93 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.background {
+    
+    width: 70%;
+    height: 100vh;
+    background-image: url('/root/assets/images/logo Ace.png');
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.side-bar-menu {
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+
+.side-bar-menu header {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+
+.menu ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.menu li:hover a {
+    padding-left: 50px;
+}
+
+.menu ul a i {
+    margin-right: 16px;
+}
+
+.dropdown-menu {
+    /*display: none;*/
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+
+.submenu:hover  .dropdown-menu {
+    position: relative;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    margin-left: 10px;
+    color: white;
+    transition: all .4s ease-in;
+    
+}
+
+.dropdown-menu li:hover a {
+    
+    margin-left: 5px;
+    
+}
+
+.dropdown-menu li:hover a i {
+    
+    filter: invert(1);
+    
+}
